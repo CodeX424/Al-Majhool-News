@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>أخبار مجهول</title>
+  <style>
+    body {
+      font-family: "Arial", sans-serif;
+      background-color: #121212;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1f1f1f;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #222;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+    .section-title {
+      margin-top: 40px;
+      margin-bottom: 20px;
+      font-size: 24px;
+      border-bottom: 2px solid #444;
+      padding-bottom: 10px;
+    }
+    .news-item {
+      background-color: #1a1a1a;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    }
+    .news-item img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .news-item h2 {
+      margin: 0 0 10px;
+      font-size: 22px;
+    }
+    .news-item p {
+      font-size: 16px;
+      color: #bbb;
+      line-height: 1.6;
+    }
+    .news-item time {
+      display: block;
+      margin-top: 10px;
+      font-size: 14px;
+      color: #888;
+    }
+    .publisher {
+      display: block;
+      margin-top: 5px;
+      font-size: 14px;
+      color: #888;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1f1f1f;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>أخبار مجهول</header>
+  <nav>
+    <a href="#">الرئيسية</a>
+    <a href="#">مصر</a>
+    <a href="#">فلسطين</a>
+    <a href="#">أمريكا</a>
+    <a href="#">روسيا</a>
+    <a href="#">العالم</a>
+  </nav>
+  <div class="container">
+    <!-- قسم الأخبار الإقليمية -->
+    <div class="section-title">أخبار الشرق الأوسط وأمريكا وروسيا</div>
+    <!-- خبر 1: مصر تعلن عن مشروع اقتصادي ضخم -->
+    <div class="news-item">
+      <img src="https://img.youm7.com/large/202010200223322332.jpg" alt="مشروع اقتصادي">
+      <h2>مصر تعلن عن مشروع اقتصادي ضخم لدعم التنمية المستدامة</h2>
+      <p>في خطوة إيجابية ومتفائلة، أطلقت الحكومة المصرية مشروعاً اقتصادياً ضخماً يهدف إلى دعم التنمية المستدامة وتحفيز الاستثمارات المحلية والدولية، مما يعكس رؤية مصر للتقدم والازدهار.</p>
+      <time datetime="2025-02-21">تاريخ النشر: 21 فبراير 2025</time>
+      <span class="publisher">ناشر الخبر: مجهول 101</span>
+    </div>
+    <!-- خبر 2: القطاع السياحي المصري يتعافى -->
+    <div class="news-item">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Great_Sphinx_%28%D8%A3%D8%A8%D9%88_%D8%A7%D9%84%D9%87%D9%88%D9%84%29.jpg/1920px-Great_Sphinx_%28%D8%A3%D8%A8%D9%88_%D8%A7%D9%84%D9%87%D9%88%D9%84%29.jpg" alt="القطاع السياحي">
+      <h2>القطاع السياحي المصري يتعافى بقوة بعد الجائحة</h2>
+      <p>تشهد مصر انتعاشاً ملحوظاً في القطاع السياحي، حيث بدأت المعالم الأثرية والسياحية تستقبل الزوار من مختلف أنحاء العالم، مما يعزز الاقتصاد ويفتح آفاقاً جديدة للتنمية.</p>
+      <time datetime="2025-02-20">تاريخ النشر: 20 فبراير 2025</time>
+      <span class="publisher">ناشر الخبر: مجهول 101</span>
+    </div>
+    <!-- خبر 3: مصر تتصدر المؤشرات الاقتصادية -->
+    <div class="news-item">
+      <img src="https://via.placeholder.com/800x400.png?text=Egypt+Economic" alt="تنمية اقتصادية">
+      <h2>مصر تتصدر المؤشرات الإقليمية للتنمية الاقتصادية</h2>
+      <p>أظهرت تقارير حديثة تفوق مصر في مجالات التنمية الاقتصادية والاستدامة، مما يعكس جهود الإصلاحات وتحقيق النمو الاقتصادي في ظل بيئة استثمارية جاذبة.</p>
+      <time datetime="2025-02-19">تاريخ النشر: 19 فبراير 2025</time>
+      <span class="publisher">ناشر الخبر: مجهول 101</span>
+    </div>
+    <!-- خبر 4: فلسطين استمرار الصمود -->
+    <div class="news-item">
+      <img src="https://via.placeholder.com/800x400.png?text=Palestine+Resilience" alt="فلسطين">
+      <h2>فلسطين: استمرار الصمود في وجه التحديات</h2>
+      <p>يستمر الشعب الفلسطيني في تقديم نموذج للصمود والتحدي رغم الظروف الصعبة، مع تأكيد دعم المجتمع الدولي للقضية والحقوق الوطنية.</p>
+      <time datetime="2025-02-18">تاريخ النشر: 18 فبراير 2025</time>
+      <span class="publisher">ناشر الخبر: مجهول 101</span>
+    </div>
+    <!-- خبر 5: جهود دولية للقضية الفلسطينية -->
+    <div class="news-item">
+      <img src="https://via.placeholder.com/800x400.png?text=International+Support+for+Palestine" alt="الدعم الدولي">
+      <h2>جهود دولية لتعزيز الدعم للقضية الفلسطينية</h2>
+      <p>أطلقت العديد من الجهات الدولية مبادرات جديدة لتعزيز الدعم للقضية الفلسطينية، مما يساهم في تسليط الضوء على الحقوق الوطنية وتقديم الدعم السياسي والاقتصادي.</p>
+      <time datetime="2025-02-17">تاريخ النشر: 17 فبراير 2025</time>
+      <span class="publisher">ناشر الخبر: مجهول 101</span>
+    </div>
+    <!-- خبر 6: أمريكا تحولات سياسية واقتصادية -->
+    <div class="news-item">
+      <img src="https://via.placeholder.com/800x400.png?text=USA+Political+Transformation" alt="تحولات أمريكية">
+      <h2>أمريكا تشهد تحولات سياسية واقتصادية هامة</h2>
+      <p>تشهد الولايات المتحدة تغييرات كبيرة على الصعيدين السياسي والاقتصادي، مما قد يؤدي إلى إعادة تشكيل العلاقات الدولية وتوازن القوى في المنطقة.</p>
+      <time datetime="2025-02-16">تاريخ النشر: 16 فبراير 2025</time>
+      <span class="publisher">ناشر الخبر: مجهول 101</span>
+    </div>
+    <!-- خبر 7: الاقتصاد الأمريكي يتباطأ -->
+    <div class="news-item">
+      <img src="https://via.placeholder.com/800x400.png?text=USA+Economic+Slowdown" alt="اقتصاد أمريكي">
+      <h2>الاقتصاد الأمريكي يتباطأ وسط تحديات داخلية وخارجية</h2>
+      <p>على الرغم من الإنجازات السابقة، يواجه الاقتصاد الأمريكي تباطؤاً ملحوظاً نتيجة للتحديات الداخلية والخارجية التي تؤثر على النمو والاستقرار الاقتصادي.</p>
+      <time datetime="2025-02-15">تاريخ النشر: 15 فبراير 2025</time>
+      <span class="publisher">ناشر الخبر: مجهول 101</span>
+    </div>
+    <!-- خبر 8: بوتين ومبادرات اقتصادية -->
+    <div class="news-item">
+      <img src="https://via.placeholder.com/800x400.png?text=Putin+Economic+Initiative" alt="مبادرة بوتين">
+      <h2>بوتين يعلن عن مبادرات لتعزيز القوة الاقتصادية لروسيا</h2>
+      <p>في إطار سعيه لتعزيز مكانة روسيا على الساحة الدولية، أعلن الرئيس بوتين عن سلسلة من المبادرات الاقتصادية التي تهدف إلى تنشيط النمو وتعزيز الاستثمارات الوطنية.</p>
+      <time datetime="2025-02-14">تاريخ النشر: 14 فبراير 2025</time>
+      <span class="publisher">ناشر الخبر: مجهول 101</span>
+    </div>
+    <!-- خبر 9: بوتين واستراتيجية مواجهة التحديات -->
+    <div class="news-item">
+      <img src="https://via.placeholder.com/800x400.png?text=Putin+Strategy" alt="استراتيجية بوتين">
+      <h2>بوتين يتخذ خطوات استراتيجية في مواجهة التحديات الدولية</h2>
+      <p>وسط تقلبات المشهد الدولي، قام بوتين باتخاذ إجراءات استراتيجية لحماية مصالح روسيا وتعزيز دورها السياسي والاقتصادي في مواجهة التحديات المتزايدة.</p>
+      <time datetime="2025-02-13">تاريخ النشر: 13 فبراير 2025</time>
+      <span class="publisher">ناشر الخبر: مجهول 101</span>
+    </div>
+
+    <!-- قسم أخبار العالم -->
+    <div class="section-title">أخبار العالم</div>
+    <!-- خبر 10: أوروبا - احتجاجات في فرنسا -->
+    <div class="news-item">
+      <img src="https://via.placeholder.com/800x400.png?text=France+Protests" alt="احتجاجات في فرنسا">
+      <h2>أوروبا: احتجاجات واسعة في فرنسا بسبب رفع أسعار الوقود</h2>
+      <p>تشهد فرنسا موجة احتجاجات واسعة بعد إعلان الحكومة عن رفع أسعار الوقود، مما أثار استياء المواطنين ودعا إلى مراجعة السياسات الاقتصادية.</p>
+      <time datetime="2025-02-12">تاريخ النشر: 12 فبراير 2025</time>
+      <span class="publisher">ناشر الخبر: مجهول 101</span>
+    </div>
+    <!-- خبر 11: آسيا - إصلاحات سياسية في الهند -->
+    <div class="news-item">
+      <img src="https://via.placeholder.com/800x400.png?text=India+Political+Reform" alt="إصلاحات في الهند">
+      <h2>آسيا: الهند تعلن عن إصلاحات سياسية بعد الانتخابات</h2>
+      <p>في تحول دراماتيكي على الساحة السياسية، أعلنت الهند عن إصلاحات جديدة تهدف إلى تعزيز الديمقراطية وتحقيق استقرار سياسي بعد الانتخابات الأخيرة.</p>
+      <time datetime="2025-02-11">تاريخ النشر: 11 فبراير 2025</time>
+      <span class="publisher">ناشر الخبر: مجهول 101</span>
+    </div>
+    <!-- خبر 12: أفريقيا - استثمارات في جنوب أفريقيا -->
+    <div class="news-item">
+      <img src="https://via.placeholder.com/800x400.png?text=South+Africa+Investments" alt="استثمارات في جنوب أفريقيا">
+      <h2>أفريقيا: جنوب أفريقيا تسجل ارتفاعاً في الاستثمارات الأجنبية</h2>
+      <p>تشهد جنوب أفريقيا طفرة في الاستثمارات الأجنبية، مما يعكس ثقة المستثمرين في إمكانيات النمو والتنمية الاقتصادية في القارة الإفريقية.</p>
+      <time datetime="2025-02-10">تاريخ النشر: 10 فبراير 2025</time>
+      <span class="publisher">ناشر الخبر: مجهول 101</span>
+    </div>
+    <!-- خبر 13: أمريكا اللاتينية - مشروع بيئي في البرازيل -->
+    <div class="news-item">
+      <img src="https://via.placeholder.com/800x400.png?text=Brazil+Environmental+Project" alt="مشروع بيئي في البرازيل">
+      <h2>أمريكا اللاتينية: البرازيل تطلق مشروعاً بيئياً لتحسين المناخ</h2>
+      <p>في مبادرة تهدف إلى مواجهة التحديات البيئية، أعلنت البرازيل عن إطلاق مشروع بيئي شامل يهدف إلى تحسين جودة الهواء والحد من انبعاثات الكربون.</p>
+      <time datetime="2025-02-09">تاريخ النشر: 9 فبراير 2025</time>
+      <span class="publisher">ناشر الخبر: مجهول 101</span>
+    </div>
+    <!-- خبر 14: أوروبا - سياسات جديدة في بريطانيا -->
+    <div class="news-item">
+      <img src="https://via.placeholder.com/800x400.png?text=UK+Policy+Debate" alt="سياسات بريطانيا">
+      <h2>أوروبا: بريطانيا تناقش سياسات جديدة بعد خروجها من الاتحاد الأوروبي</h2>
+      <p>تجري في بريطانيا مناقشات حادة حول صياغة سياسات اقتصادية واجتماعية جديدة بعد فترة من التحديات السياسية التي أعقبت خروجها من الاتحاد الأوروبي.</p>
+      <time datetime="2025-02-08">تاريخ النشر: 8 فبراير 2025</time>
+      <span class="publisher">ناشر الخبر: مجهول 101</span>
+    </div>
+  </div>
+  <footer>
+    © 2025 أخبار مجهول - جميع الحقوق محفوظة
+  </footer>
+</body>
+</html>
